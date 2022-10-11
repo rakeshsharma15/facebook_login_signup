@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rozha+One&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/plus-jakarta-display.min.css");
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  background-image: url(https://spyne-website.s3.ap-south-1.amazonaws.com/static/website-themes/clippr/static/Landing+Page+%E2%80%93+1%402x.png);
+  background-size: cover;
+  background-repeat: repeat-y;
+  font-family: "Plus Jakarta Display";
+  font-weight: 600;
+}

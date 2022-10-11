@@ -1,0 +1,166 @@
+.background{
+    background-color:rgba(255, 255, 255, .8);
+}
+.footer-model{
+    background-color: #ffffff;
+    width: 440px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%)!important;
+    box-sizing: border-box;
+    margin-left: -60px;
+    padding: 0px;
+    border-radius: 8px;
+}
+.header{
+    /* padding: 5px; */
+    padding-left: 13px;
+    padding-right: 10px;
+    padding-top: 10px;
+    width: 100%;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.sign-up-header h2{
+    color: #1c1e21;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 0;
+    
+}
+.sign-up-header p{
+    color: #606770;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+.header img{
+    margin-top: 5px;
+    font-size: 22px;
+    color: grey;
+    font-weight: 400;
+    width: 25px;
+    cursor: pointer;
+}
+
+.input-field-input{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-field-input input{
+    font-size: 17px;
+    padding: 5px 10px!important;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    width: 86%;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f5f6f7;;
+} 
+.input-field-email input{
+    font-size: 17px;
+    padding: 5px 10px!important;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    width: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f5f6f7;
+}
+.input-field-select-option{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 0px;
+}
+.input-field-select-option label{
+    padding-left: 13px;
+    color: #606770;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 0px;
+    margin-top: 15px;
+}
+.input-field-select-option select{
+    width: 82%;
+    margin-left: 13px;
+    border-radius: 4px;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+    border: 1px solid #b5b7ba;
+}
+.input-field-select-option span{
+    width: 82%;
+    margin-left: 13px;
+    border-radius: 4px;
+    color: #1c1e21;
+    font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    height: 36px;
+    line-height: 20px;
+    border: 1px solid #b5b7ba;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-information{
+     padding: 0px;
+     margin-top: 10px;
+}
+.information{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: rgb(97, 96, 96);
+    font-size: 11px;
+    width: 316px;
+}
+.information p span{
+    color: #385898;
+}
+.btn-signup{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.btn-signup button{
+    background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 60px;
+    text-shadow: none;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.btn-signup button:focus{
+    outline: none;
+    border: none;
+}
+.btn-signup button:hover{
+    background-color: #68805c;
+}
